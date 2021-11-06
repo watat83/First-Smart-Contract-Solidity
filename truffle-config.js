@@ -4,9 +4,6 @@ const HDWalletProvider = require('@truffle/hdwallet-provider');
 const Web3 = require('web3');
 // const fs = require('fs');
 // const mnemonic = fs.readFileSync(".secret").toString().trim();
-const nnemonic = process.env.NNEMONIC;
-const privateKeys = ["a161190f01c104d4429ad27239c1c9198a047bdc5478dc149baf4c96aed0e024"]
-const project_id = process.env.INFURA_PROJECT_ID;
 
 module.exports = {
   contracts_build_directory: "./client/src/contracts",
